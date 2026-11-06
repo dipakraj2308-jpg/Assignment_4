@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>AJAX and PHP Assignment</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <h1>AJAX and PHP Assignment</h1>
+  <p class="sub">Dipak Mahata | 2024CSB082</p>
+
+  <div class="box">
+    <h2>1. Hello PHP</h2>
+    <button onclick="showHello()">Say Hello</button>
+    <div id="out1"></div>
+  </div>
+
+  <div class="box">
+    <h2>2. Grade of a Student</h2>
+    <input type="number" id="marks" placeholder="Enter marks (0-100)">
+    <button onclick="showGrade()">Get Grade</button>
+    <div id="out2"></div>
+  </div>
+
+  <div class="box">
+    <h2>3. Odd Numbers from 1 to N</h2>
+    <input type="number" id="oddN" placeholder="Enter N">
+    <button onclick="showOdd()">Show</button>
+    <div id="out3"></div>
+  </div>
+
+  <div class="box">
+    <h2>4(i). Sort Numbers</h2>
+    <input type="text" id="nums" placeholder="e.g. 5,2,9,1">
+    <button onclick="showSorted()">Sort</button>
+    <div id="out4a"></div>
+  </div>
+
+  <div class="box">
+    <h2>4(ii). Animal Names</h2>
+    <input type="number" id="animalN" placeholder="Enter N">
+    <button onclick="showAnimals()">Show</button>
+    <div id="out4b"></div>
+  </div>
+
+  <div class="box">
+    <h2>5. Feedback Form</h2>
+    <form id="myForm">
+      Name: <input type="text" name="username"><br>
+      Password: <input type="password" name="password"><br>
+      Rating:
+      <input type="radio" name="rating" value="Good" checked> Good
+      <input type="radio" name="rating" value="Average"> Average
+      <input type="radio" name="rating" value="Poor"> Poor<br>
+      Favourite topic:
+      <select name="topic" size="3">
+        <option>HTML</option>
+        <option>CSS</option>
+        <option>JavaScript</option>
+      </select><br>
+      File: <input type="file" name="myfile"><br>
+      <input type="hidden" name="formid" value="FB101">
+      <button type="button" onclick="sendFeedback()">Submit</button>
+    </form>
+    <div id="out5"></div>
+  </div>
+
+  <div class="box">
+    <h2>6. Animal Images</h2>
+    <input type="number" id="imgN" placeholder="Enter N (max 5)">
+    <button onclick="showImages()">Show</button>
+    <div id="out6"></div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
